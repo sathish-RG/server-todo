@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(morgan('dev'));
 app.use(cors({
-  origin:'https://totofull.netlify.app/',
+  origin:'https://totofull.netlify.app',
   credentials:true,
 }));
 
